@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		8A6C15C42ABF25AE000BFE75 /* GuideBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C15C32ABF25AE000BFE75 /* GuideBookApp.swift */; };
-		8A6C15C62ABF25AE000BFE75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C15C52ABF25AE000BFE75 /* ContentView.swift */; };
+		8A6C15C62ABF25AE000BFE75 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C15C52ABF25AE000BFE75 /* CityView.swift */; };
 		8A6C15C82ABF25AF000BFE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6C15C72ABF25AF000BFE75 /* Assets.xcassets */; };
 		8A6C15CB2ABF25AF000BFE75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6C15CA2ABF25AF000BFE75 /* Preview Assets.xcassets */; };
+		8A6C15D22ABF25F2000BFE75 /* AttractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C15D12ABF25F2000BFE75 /* AttractionView.swift */; };
+		8A6C15D62ABF29AE000BFE75 /* DataService .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C15D52ABF29AE000BFE75 /* DataService .swift */; };
+		8A6C15D82ABF2A07000BFE75 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C15D72ABF2A07000BFE75 /* City.swift */; };
+		8A6C15DA2ABF2A5E000BFE75 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C15D92ABF2A5E000BFE75 /* Attraction.swift */; };
+		8A6C15F82ABF369B000BFE75 /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C15F72ABF369B000BFE75 /* CityCard.swift */; };
+		8A6C15FA2ABF3E5A000BFE75 /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C15F92ABF3E5A000BFE75 /* AttractionRow.swift */; };
+		8A6C15FC2ABF41DF000BFE75 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C15FB2ABF41DF000BFE75 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A6C15C02ABF25AE000BFE75 /* GuideBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6C15C32ABF25AE000BFE75 /* GuideBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideBookApp.swift; sourceTree = "<group>"; };
-		8A6C15C52ABF25AE000BFE75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A6C15C52ABF25AE000BFE75 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		8A6C15C72ABF25AF000BFE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A6C15CA2ABF25AF000BFE75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A6C15D12ABF25F2000BFE75 /* AttractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionView.swift; sourceTree = "<group>"; };
+		8A6C15D52ABF29AE000BFE75 /* DataService .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataService .swift"; sourceTree = "<group>"; };
+		8A6C15D72ABF2A07000BFE75 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		8A6C15D92ABF2A5E000BFE75 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
+		8A6C15F72ABF369B000BFE75 /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
+		8A6C15F92ABF3E5A000BFE75 /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
+		8A6C15FB2ABF41DF000BFE75 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +66,16 @@
 			isa = PBXGroup;
 			children = (
 				8A6C15C32ABF25AE000BFE75 /* GuideBookApp.swift */,
-				8A6C15C52ABF25AE000BFE75 /* ContentView.swift */,
+				8A6C15C52ABF25AE000BFE75 /* CityView.swift */,
+				8A6C15D12ABF25F2000BFE75 /* AttractionView.swift */,
+				8A6C15D52ABF29AE000BFE75 /* DataService .swift */,
 				8A6C15C72ABF25AF000BFE75 /* Assets.xcassets */,
+				8A6C15D72ABF2A07000BFE75 /* City.swift */,
+				8A6C15D92ABF2A5E000BFE75 /* Attraction.swift */,
 				8A6C15C92ABF25AF000BFE75 /* Preview Content */,
+				8A6C15F72ABF369B000BFE75 /* CityCard.swift */,
+				8A6C15F92ABF3E5A000BFE75 /* AttractionRow.swift */,
+				8A6C15FB2ABF41DF000BFE75 /* DetailView.swift */,
 			);
 			path = GuideBook;
 			sourceTree = "<group>";
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A6C15C62ABF25AE000BFE75 /* ContentView.swift in Sources */,
+				8A6C15D62ABF29AE000BFE75 /* DataService .swift in Sources */,
+				8A6C15C62ABF25AE000BFE75 /* CityView.swift in Sources */,
+				8A6C15FA2ABF3E5A000BFE75 /* AttractionRow.swift in Sources */,
+				8A6C15FC2ABF41DF000BFE75 /* DetailView.swift in Sources */,
+				8A6C15D82ABF2A07000BFE75 /* City.swift in Sources */,
+				8A6C15DA2ABF2A5E000BFE75 /* Attraction.swift in Sources */,
+				8A6C15F82ABF369B000BFE75 /* CityCard.swift in Sources */,
 				8A6C15C42ABF25AE000BFE75 /* GuideBookApp.swift in Sources */,
+				8A6C15D22ABF25F2000BFE75 /* AttractionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
