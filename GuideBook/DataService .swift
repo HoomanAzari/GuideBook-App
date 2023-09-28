@@ -93,4 +93,29 @@ On the bottom floor is an exhibit room showing the history and science of animat
         
     }
     
+    func getFileData() -> [City] {
+        //Get filepath to DemoData.json
+        if let myUrl = Bundle.main.url(forResource: "DemoData", withExtension: "json"){
+            
+            do {
+                //Read the file and turn it into data
+                let myData = try Data(contentsOf: myUrl)
+                
+                //Parse data into swift instances
+                let decoder = JSONDecoder()
+                do{
+                    let cities = try decoder.decode([City].self, from: myData)       //City.self means type of data we want to conver to
+                    return cities
+                }
+                catch{
+                    print("Couldn't parse the JSON: \(error)")
+                }
+            }
+            catch {
+                print("Couldn't read the file: \(error)")
+            }
+        
+        }
+        return [City]()     //returning an empty city array if url is nil
+    }
 }
